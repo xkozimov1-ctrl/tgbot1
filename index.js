@@ -28,3 +28,15 @@ bot.start({
     console.log(`🤖 @${botInfo.username} muvaffaqiyatli ishga tushirildi!`);
   }
 });
+import express from 'express';
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.send('Bot muvaffaqiyatli ishlayapti!');
+});
+
+app.listen(PORT, () => {
+  console.log(`Server ${PORT}-portda ishga tushdi.`);
+});
