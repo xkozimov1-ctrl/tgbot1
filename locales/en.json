@@ -1,0 +1,8 @@
+{
+  "welcome": "Welcome! Send anime code or title:",
+  "not_found": "Anime not found by this code or title.",
+  "sub_required": "To use the bot, please subscribe to the following channels:",
+  "check_sub": "I subscribed ✅",
+  "select_lang": "Select language:",
+  "premium_msg": "⭐ Premium subscription costs 5,000 UZS per week.\nPremium users skip channel subscriptions!"
+}

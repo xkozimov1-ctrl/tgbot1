@@ -1,0 +1,14 @@
+{
+  "name": "anime-telegram-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.116.0",
+    "dotenv": "^16.6.1",
+    "grammy": "^1.46.0"
+  }
+}
